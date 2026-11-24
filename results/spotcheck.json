@@ -1,0 +1,19 @@
+{"checked_by": "Claude (AI cross-check against issue text and both patches), not a human",
+ "results": [
+  {"n":1,"agent":"claudecode","task":"richardkiss_pycoin_pr177","verdict":"mostly","note":"hidden tests mock platform.system(); issue does not name that API"},
+  {"n":2,"agent":"claudecode","task":"pallets_click_pr1061","verdict":"correct","note":"hid commands but not options"},
+  {"n":3,"agent":"claudecode","task":"sethmlarson_truststore_pr132","verdict":"correct","note":"helper added but not wired in"},
+  {"n":4,"agent":"minisweagent","task":"hhatto_autopep8_pr650","verdict":"partly","note":"claim that issue requires class methods is too strong"},
+  {"n":5,"agent":"minisweagent","task":"facebookresearch_clusterscope_pr29","verdict":"cause right, label wrong","note":"hidden tests need *_MB names not in the issue → underspecified task"},
+  {"n":6,"agent":"minisweagent","task":"sethmlarson_truststore_pr132","verdict":"correct","note":"wrong location"},
+  {"n":7,"agent":"opencode","task":"sethmlarson_truststore_pr132","verdict":"unsure","note":"small fix might work"},
+  {"n":8,"agent":"opencode","task":"numpy_numpy-financial_pr81","verdict":"unsure","note":"minimal config; unclear it cannot work"},
+  {"n":9,"agent":"opencode","task":"reef-technologies_logfury_pr9","verdict":"correct, label should be broke existing behaviour","note":"broke method tracing"},
+  {"n":10,"agent":"openhands","task":"sphinx-contrib_confluencebuilder_pr1075","verdict":"correct","note":"docs/config only, feature not implemented"},
+  {"n":11,"agent":"openhands","task":"pdm-project_pdm-backend_pr120","verdict":"correct","note":"partial update"},
+  {"n":12,"agent":"openhands","task":"cloudtools_troposphere_pr2182","verdict":"partly wrong","note":"'unhashable' claim false; reference patch only touches tests → possibly broken task"},
+  {"n":13,"agent":"sweagent","task":"app-sre_qontract-reconcile_pr1052","verdict":"correct","note":"replaced labels instead of keeping both"},
+  {"n":14,"agent":"sweagent","task":"roniemartinez_latex2mathml_pr137","verdict":"cause right","note":"tests require exact em sizes not in the issue → underspecified task"},
+  {"n":15,"agent":"sweagent","task":"facebookresearch_clusterscope_pr29","verdict":"cause right","note":"same as #5"}
+ ],
+ "summary": {"correct": 7, "partly_or_label": 5, "unsure": 2, "partly_wrong": 1, "possibly_unfair_test": 4}}
