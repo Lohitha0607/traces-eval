@@ -1,15 +1,17 @@
 # traces-eval
 
-**Why do coding agents fail, and do they know they failed?**
+**Why do coding agents fail, do they know they failed, and how often is the failure the test's fault?**
 
-An error analysis of 300 real coding-agent runs (5 agents, same model, same tasks), followed by Harbor tasks built from the most common agent mistakes.
+An error analysis of 300 real coding-agent runs (5 agents, same model, same tasks), a rule-based fairness check scaled to all 20,181 tasks of the underlying training dataset, and a controlled Harbor experiment.
 
 ## Headline results
 - **Agents almost never admit failure.** In **94%** of failed runs (153/163, 95% CI 89–97%) the agent's final message still claimed the fix worked, and in 89% it claimed to have verified it. Solved runs claimed success 93% of the time, so a success claim says almost nothing about the outcome.
-- **Almost half of the failures are not agent mistakes.** In **41%** of failures the hidden tests required names, exact values or files that the issue never stated (*hidden-test mismatch*); another 5% look correct. Agent mistakes (types 1–5) explain **50%**.
+- **Many failures are the test's fault.** In the 163 analysed failures, **41%** had hidden tests that required names, exact values or files the issue never stated (*hidden-test mismatch*).
+- **At dataset scale: 24% of tasks, solved half as often.** A rule with no AI flags tasks whose hidden test needs a name or literal that the correct fix introduces and the issue never mentions. It flags **24.2% of all 20,181 Scale-SWE tasks**. Across 76,480 Open-SWE-Traces runs, flagged tasks are solved **35.5%** of the time vs **68.0%** for the rest, for every one of the five agents and at every size of fix (≤10-line fixes: 44.0% vs 78.7%). See [`results/fairness_summary.md`](results/fairness_summary.md).
 - **The real agent mistakes:** missed part of the request (18%), broke existing behaviour (10%), wrong assumption (10%), wrong location (6%), unwired code (5%).
-- **When the task is clearly specified, the traps are avoided.** On our Harbor tasks built from those mistakes (each task text states everything the grader checks), all five agents (goose, pi, Prime Agent, mini-SWE-agent, OpenCode) passed every run (51/51), and their self-reported confidence matched the outcome. See [Half 2](#half-2-harbor-tasks-from-the-top-mistakes).
+- **Clean, clearly specified tasks are solved.** On Harbor tasks we built from those mistakes, all five agents (goose, pi, Prime Agent, mini-SWE-agent, OpenCode) passed every run (51/51), which matches METR's observation that clean tasks overestimate agents.
 
+![Solve rate by fairness flag](results/fairness_by_size.png)
 ![False success](results/false_success.png)
 ![Failure types](results/failure_types.png)
 
@@ -33,7 +35,20 @@ An error analysis of 300 real coding-agent runs (5 agents, same model, same task
 | Agreement | 69% exact, Cohen's kappa 0.57; 75% agree on "agent mistake vs task/grader problem" | `results/agreement.txt` |
 | Report | counts with Wilson 95% intervals and charts | `scripts/report.py` → `results/summary.md` |
 
-## Half 2: Harbor tasks from the top mistakes
+## Fairness check at dataset scale
+`fairness/check.py` reads, for every task in [AweAI-Team/Scale-SWE](https://huggingface.co/datasets/AweAI-Team/Scale-SWE), the issue, the correct fix and the hidden test (`f2p_script`). It flags the task when the test uses a name (function, method, class, constant) or a literal that the fix newly introduces (test files in the fix are ignored) and that the issue does not mention. The per-task list with the missing names is in [`results/fair_tasks.csv`](results/fair_tasks.csv).
+
+- Flagged: 4,874 of 20,181 tasks (24.2%).
+- Solve rate on Open-SWE-Traces (scale-swe, xhigh): 35.5% flagged vs 68.0% not flagged; the gap holds per agent and per fix size.
+- Validation against the Half 1 labels on 60 tasks is weak (53% agreement, precision 46%, recall 32%), so the rule is a coarse screen rather than a per-task verdict. It never flagged a task that all five agents solved.
+- Scale-SWE has two graders per task: a generated test (`f2p_script`) and the real PR tests (`FAIL_TO_PASS`). They can disagree: for clusterscope the generated test accepts the agents' `to_unit` solution, while the PR tests require methods renamed to `get_mem_MB` / `get_mem_per_node_MB`, which the issue never mentions.
+
+## Controlled experiment (Harbor)
+To test the cause rather than the correlation, `tasks/proof-clusterscope-original` and `tasks/proof-clusterscope-clarified` use Scale-SWE's own Docker image and the strict PR tests. The only difference is one added sentence naming the renamed methods. Both versions pass the validity checks (reference fix scores 1, doing nothing scores 0).
+
+Result (goose, free Nemotron, 3 tries each): _running_
+
+## Harbor tasks from the top mistakes (ceiling effect)
 Three tasks, one per top agent-mistake type, each based on a real pattern from Half 1. Every task text states everything the hidden grader checks (lesson from the 41% hidden-test mismatch). Each task asks the agent to write `{"fixed": ..., "confidence": 0-100}` so false success can be measured live.
 
 | Task | Trap | v2 (harder) |
@@ -62,6 +77,7 @@ Note: Half 2 uses a different model (Nemotron) from Half 1 (Qwen3.8), so compare
 - One model per half, one sample of 60 tasks, synthetic Harbor tasks.
 - The failure notes are AI drafts; the rubric labels come from one Claude pass plus an independent AI grader, and 15 notes were cross-checked by Claude (not by a human).
 - "Hidden-test mismatch" is a judgement that the issue text does not state what the tests require; some of those tasks may still be solvable by inference.
+- The fairness rule is lexical: it misses requirements that are not new names or literals, and it can flag details an agent could infer. The solve-rate gap is a correlation; the Harbor experiment covers one task.
 
 ## Run it
 ```bash
@@ -72,13 +88,17 @@ uv run python scripts/make_viewer.py            # open data/viewer/index.html
 OPENROUTER_API_KEY=... PYTHONPATH=scripts uv run python scripts/judge_claims.py
 uv run python scripts/report.py
 
+# Fairness check (HF_TOKEN recommended for downloads)
+uv run python fairness/fetch_scaleswe.py && uv run python fairness/check.py
+uv run python fairness/validate.py && uv run python fairness/report.py
+
 # Half 2 (needs Harbor): oracle/nop checks, then agents
 ./run_agents.sh goose
 TASKS="hidden-items-v2 bot-labels-v2 runner-stats-v2" ./run_agents.sh goose
 ```
 
 ## Credits
-Data: Ahmad, Ludwig, Majumdar, Ginsburg. *Open-SWE-Traces: Advancing Dual-Mode Multilingual Distillation for Software Engineering Agents.* Findings of EMNLP 2026. CC BY 4.0.
+Tasks: AweAI-Team/Scale-SWE (Hugging Face). Data: Ahmad, Ludwig, Majumdar, Ginsburg. *Open-SWE-Traces: Advancing Dual-Mode Multilingual Distillation for Software Engineering Agents.* Findings of EMNLP 2026. CC BY 4.0.
 
 ## License
 Apache-2.0
