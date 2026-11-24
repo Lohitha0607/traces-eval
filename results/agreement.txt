@@ -1,12 +1,12 @@
-labelled by both: 54 · raw agreement 40/54 (74%) · Cohen's kappa 0.60
-agree on 'agent mistake' vs 'task/grader problem': 41/54 (76%)
+labelled by both: 77 · raw agreement 53/77 (69%) · Cohen's kappa 0.57
+agree on 'agent mistake' vs 'task/grader problem': 58/77 (75%)
 
 type                   grader A grader B
-1 unwired code                5        9
-2 missed part                 8        4
-3 wrong location              3        3
-4 broke behaviour             4        4
-5 wrong assumption            5        2
-6 hidden-test mismatch       29       31
+1 unwired code                6       12
+2 missed part                13        7
+3 wrong location              7        5
+4 broke behaviour             9        6
+5 wrong assumption           10        6
+6 hidden-test mismatch       32       40
 7 looks correct               0        1
 8 other                       0        0
