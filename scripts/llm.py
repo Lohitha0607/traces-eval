@@ -10,12 +10,13 @@ MODEL = os.environ.get("JUDGE_MODEL", "nvidia/nemotron-3.5-super-vl")
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
-def ask(prompt: str, max_tokens: int = 1500) -> tuple[str, dict]:
+def ask(prompt: str, max_tokens: int = 1500, effort: str | None = os.environ.get("JUDGE_EFFORT")) -> tuple[str, dict]:
     body = json.dumps({
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": max_tokens,
         "temperature": 0,
+        **({"reasoning": {"enabled": False}} if effort == "off" else {"reasoning": {"effort": effort}} if effort else {}),
     }).encode()
     last = None
     for attempt in range(5):
