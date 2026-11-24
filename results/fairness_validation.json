@@ -1,0 +1,356 @@
+[
+ [
+  "app-sre_qontract-reconcile_pr1052",
+  "agent",
+  "fair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "app-sre_qontract-reconcile_pr1232",
+  "unfair",
+  "fair",
+  {
+   "other": 1,
+   "unfair": 2
+  }
+ ],
+ [
+  "app-sre_qontract-reconcile_pr679",
+  "agent",
+  "unfair",
+  {
+   "agent": 1
+  }
+ ],
+ [
+  "audreyr_cookiecutter_pr2053",
+  "unfair",
+  "fair",
+  {
+   "unfair": 2
+  }
+ ],
+ [
+  "auth0_auth0-python_pr169",
+  "unfair",
+  "fair",
+  {
+   "unfair": 4
+  }
+ ],
+ [
+  "bids-standard_pybids_pr713",
+  "agent",
+  "fair",
+  {
+   "agent": 3
+  }
+ ],
+ [
+  "cloudtools_troposphere_pr2182",
+  "unfair",
+  "fair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "codrsquad_setupmeta_pr81",
+  "unfair",
+  "unfair",
+  {
+   "agent": 2,
+   "unfair": 3
+  }
+ ],
+ [
+  "dbcli_pgspecial_pr136",
+  "agent",
+  "unfair",
+  {
+   "agent": 2
+  }
+ ],
+ [
+  "roniemartinez_latex2mathml_pr137",
+  "unfair",
+  "unfair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "scrapy_itemadapter_pr31",
+  "unfair",
+  "fair",
+  {
+   "unfair": 1
+  }
+ ],
+ [
+  "sethmlarson_truststore_pr132",
+  "agent",
+  "unfair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "spdx_tools-python_pr303",
+  "agent",
+  "fair",
+  {
+   "agent": 4,
+   "other": 1
+  }
+ ],
+ [
+  "telefonica_toolium_pr368",
+  "unfair",
+  "fair",
+  {
+   "unfair": 3,
+   "agent": 2
+  }
+ ],
+ [
+  "valohai_valohai-yaml_pr98",
+  "unfair",
+  "fair",
+  {
+   "agent": 1,
+   "unfair": 2
+  }
+ ],
+ [
+  "wjohnson_pyapacheatlas_pr38",
+  "unfair",
+  "unfair",
+  {
+   "unfair": 3,
+   "agent": 2
+  }
+ ],
+ [
+  "facebookresearch_clusterscope_pr29",
+  "unfair",
+  "unfair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "fonttools_fonttools_pr2849",
+  "agent",
+  "fair",
+  {
+   "agent": 1
+  }
+ ],
+ [
+  "frictionlessdata_tableschema-py_pr269",
+  "agent",
+  "unfair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "googlefonts_ufo2ft_pr358",
+  "agent",
+  "fair",
+  {
+   "agent": 2
+  }
+ ],
+ [
+  "hhatto_autopep8_pr650",
+  "agent",
+  "fair",
+  {
+   "agent": 4
+  }
+ ],
+ [
+  "hugovk_pypistats_pr38",
+  "unfair",
+  "fair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "infobloxopen_infoblox-client_pr234",
+  "unfair",
+  "fair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "ipython_ipython_pr14287",
+  "agent",
+  "fair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "jupyterhub_oauthenticator_pr518",
+  "agent",
+  "fair",
+  {
+   "agent": 1
+  }
+ ],
+ [
+  "k2-fsa_sherpa-onnx_pr1203",
+  "agent",
+  "unfair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "kivy_buildozer_pr1575",
+  "agent",
+  "fair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "loadsmart_django-jaiminho_pr29",
+  "unfair",
+  "unfair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "marcosschroh_dataclasses-avroschema_pr810",
+  "agent",
+  "fair",
+  {
+   "other": 1,
+   "agent": 4
+  }
+ ],
+ [
+  "mcu-tools_mcuboot_pr749",
+  "agent",
+  "fair",
+  {
+   "agent": 1
+  }
+ ],
+ [
+  "mesonbuild_meson-python_pr304",
+  "unfair",
+  "fair",
+  {
+   "unfair": 5
+  }
+ ],
+ [
+  "ncclient_ncclient_pr330",
+  "agent",
+  "fair",
+  {
+   "agent": 2
+  }
+ ],
+ [
+  "numpy_numpy-financial_pr81",
+  "agent",
+  "unfair",
+  {
+   "agent": 5
+  }
+ ],
+ [
+  "nylas_nylas-python_pr190",
+  "unfair",
+  "fair",
+  {
+   "unfair": 1
+  }
+ ],
+ [
+  "pallets_click_pr1061",
+  "agent",
+  "fair",
+  {
+   "agent": 2,
+   "unfair": 2,
+   "other": 1
+  }
+ ],
+ [
+  "pallets_werkzeug_pr2338",
+  "agent",
+  "fair",
+  {
+   "agent": 4
+  }
+ ],
+ [
+  "pdm-project_pdm-backend_pr120",
+  "agent",
+  "unfair",
+  {
+   "agent": 4
+  }
+ ],
+ [
+  "projectmesa_mesa_pr1718",
+  "unfair",
+  "fair",
+  {
+   "unfair": 3
+  }
+ ],
+ [
+  "pyvisa_pyvisa-py_pr350",
+  "agent",
+  "fair",
+  {
+   "agent": 1,
+   "unfair": 1
+  }
+ ],
+ [
+  "reef-technologies_logfury_pr9",
+  "agent",
+  "fair",
+  {
+   "agent": 2
+  }
+ ],
+ [
+  "richardkiss_pycoin_pr177",
+  "unfair",
+  "unfair",
+  {
+   "unfair": 4
+  }
+ ],
+ [
+  "bids-standard_pybids_pr568",
+  "unfair",
+  "fair",
+  {
+   "unfair": 1
+  }
+ ],
+ [
+  "google_flatbuffers_pr6105",
+  "agent",
+  "fair",
+  {
+   "agent": 1
+  }
+ ]
+]
