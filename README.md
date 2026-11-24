@@ -8,7 +8,7 @@ An error analysis of 300 real coding-agent runs (5 agents, same model, same task
 - **Agents almost never admit failure.** In **94%** of failed runs (153/163, 95% CI 89–97%) the agent's final message still claimed the fix worked, and in 89% it claimed to have verified it. Solved runs claimed success 93% of the time, so a success claim says almost nothing about the outcome.
 - **Almost half of the failures are not agent mistakes.** In **41%** of failures the hidden tests required names, exact values or files that the issue never stated (*hidden-test mismatch*); another 5% look correct. Agent mistakes (types 1–5) explain **50%**.
 - **The real agent mistakes:** missed part of the request (18%), broke existing behaviour (10%), wrong assumption (10%), wrong location (6%), unwired code (5%).
-- **When the task is clearly specified, the traps are avoided.** On our Harbor tasks built from those mistakes (each task text states everything the grader checks), goose, pi and Prime Agent passed every run, and their self-reported confidence matched the outcome. See [Half 2](#half-2-harbor-tasks-from-the-top-mistakes).
+- **When the task is clearly specified, the traps are avoided.** On our Harbor tasks built from those mistakes (each task text states everything the grader checks), all five agents (goose, pi, Prime Agent, mini-SWE-agent, OpenCode) passed every run (51/51), and their self-reported confidence matched the outcome. See [Half 2](#half-2-harbor-tasks-from-the-top-mistakes).
 
 ![False success](results/false_success.png)
 ![Failure types](results/failure_types.png)
@@ -51,8 +51,10 @@ Results (free `nvidia/nemotron-3.5-super-vl:free` via OpenRouter, 3 tries per ce
 | goose | 3/3 | 3/3 | 3/3 | 3/3 |
 | pi | 3/3 | 3/3 | 3/3 | — |
 | Prime Agent | 3/3 | 3/3 | 3/3 | — |
-| mini-SWE-agent | _running_ | | | _running_ |
-| OpenCode | _running_ | | | |
+| mini-SWE-agent | 3/3 | 3/3 | 3/3 | 3/3 |
+| OpenCode | 3/3 | 3/3 | 3/3 | — |
+
+**All 45 v1 runs and all 6 v2 pilot runs passed, and every self-reported confidence (95–100%) matched the outcome.** These tasks therefore do not separate agents (a ceiling effect). What they do show: when a task is small or clearly specified, these agents avoid the traps that appear in Half 1, which points at scale and underspecified tasks as the main causes of the real failures.
 
 Note: Half 2 uses a different model (Nemotron) from Half 1 (Qwen3.8), so compare patterns, not exact numbers.
 
