@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 AGENT="${1:?usage: ./run_agents.sh <agent> [model]}"
 MODEL="${2:-openrouter/nvidia/nemotron-3.5-super-vl:free}"
 TRIES="${TRIES:-3}"
-for task in hidden-items bot-labels runner-stats; do
+for task in ${TASKS:-hidden-items bot-labels runner-stats}; do
   job="run-$AGENT-$task"
   if [ -f "jobs/$job/result.json" ]; then echo "skip $job (done)"; continue; fi
   rm -rf "jobs/$job"
