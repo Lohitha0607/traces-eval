@@ -7,7 +7,7 @@ An error analysis of 300 real coding-agent runs (5 agents, same model, same task
 ## Headline results
 - **Agents almost never admit failure.** In **94%** of failed runs (153/163, 95% CI 89–97%) the agent's final message still claimed the fix worked, and in 89% it claimed to have verified it. Solved runs claimed success 93% of the time, so a success claim says almost nothing about the outcome.
 - **Many failures are the test's fault.** In the 163 analysed failures, **41%** had hidden tests that required names, exact values or files the issue never stated (*hidden-test mismatch*).
-- **At dataset scale: 24% of tasks, solved half as often.** A rule with no AI flags tasks whose hidden test needs a name or literal that the correct fix introduces and the issue never mentions. It flags **24.2% of all 20,181 Scale-SWE tasks**. Across 76,480 Open-SWE-Traces runs, flagged tasks are solved **35.5%** of the time vs **68.0%** for the rest, for every one of the five agents and at every size of fix (≤10-line fixes: 44.0% vs 78.7%). See [`results/fairness_summary.md`](results/fairness_summary.md).
+- **At dataset scale: 24% of tasks, solved half as often.** A rule with no AI flags tasks whose hidden test needs a name or literal that the correct fix introduces and the issue never mentions. It flags **24.2% of all 20,181 Scale-SWE tasks**. Across 76,480 Open-SWE-Traces runs, flagged tasks are solved **35.5%** of the time vs **68.0%** for the rest, for every one of the five agents and at every size of fix (≤10-line fixes: 44.0% vs 78.7%). In a controlled Harbor experiment on a flagged task, adding one sentence with the missing detail took goose from **0/3 to 3/3**. See [`results/fairness_summary.md`](results/fairness_summary.md).
 - **The real agent mistakes:** missed part of the request (18%), broke existing behaviour (10%), wrong assumption (10%), wrong location (6%), unwired code (5%).
 - **Clean, clearly specified tasks are solved.** On Harbor tasks we built from those mistakes, all five agents (goose, pi, Prime Agent, mini-SWE-agent, OpenCode) passed every run (51/51), which matches METR's observation that clean tasks overestimate agents.
 
@@ -46,7 +46,14 @@ An error analysis of 300 real coding-agent runs (5 agents, same model, same task
 ## Controlled experiment (Harbor)
 To test the cause rather than the correlation, `tasks/proof-clusterscope-original` and `tasks/proof-clusterscope-clarified` use Scale-SWE's own Docker image and the strict PR tests. The only difference is one added sentence naming the renamed methods. Both versions pass the validity checks (reference fix scores 1, doing nothing scores 0).
 
-Result (goose, free Nemotron, 3 tries each): _running_
+Result (goose, free `nvidia/nemotron-3.5-super-vl:free`, 3 tries each):
+
+| Version | goose | Hidden PR tests |
+|---|---|---|
+| original issue | **0/3** | 3 failed in every try |
+| issue + one sentence naming the renamed methods | **3/3** | 3 passed in every try |
+
+Same task, agent, model and tests; only the missing detail changed. On this task the failure is caused by the underspecified issue, not by the agent.
 
 ## Harbor tasks from the top mistakes (ceiling effect)
 Three tasks, one per top agent-mistake type, each based on a real pattern from Half 1. Every task text states everything the hidden grader checks (lesson from the 41% hidden-test mismatch). Each task asks the agent to write `{"fixed": ..., "confidence": 0-100}` so false success can be measured live.
