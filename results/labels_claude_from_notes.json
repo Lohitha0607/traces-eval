@@ -1,0 +1,1143 @@
+[
+ {
+  "row": 1,
+  "trajectory_id": "962c4d2b-29d4-4f42-b475-289de73f99bf",
+  "agent": "claudecode",
+  "instance_id": "app-sre_qontract-reconcile_pr1052",
+  "type": 4
+ },
+ {
+  "row": 2,
+  "trajectory_id": "bc43eb54-f7ce-4b5b-814f-2751b428b812",
+  "agent": "opencode",
+  "instance_id": "app-sre_qontract-reconcile_pr1052",
+  "type": 4
+ },
+ {
+  "row": 3,
+  "trajectory_id": "baec9458-626f-4abe-9a3f-bbb872bb34ea",
+  "agent": "minisweagent",
+  "instance_id": "app-sre_qontract-reconcile_pr1052",
+  "type": 4
+ },
+ {
+  "row": 4,
+  "trajectory_id": "95325fcc-8832-4b7c-8e98-bb2b63190499",
+  "agent": "openhands",
+  "instance_id": "app-sre_qontract-reconcile_pr1052",
+  "type": 4
+ },
+ {
+  "row": 5,
+  "trajectory_id": "4d433833-3cde-4bc1-9299-6c919d6a595d",
+  "agent": "sweagent",
+  "instance_id": "app-sre_qontract-reconcile_pr1052",
+  "type": 4
+ },
+ {
+  "row": 6,
+  "trajectory_id": "b4ae76c1-0ce5-461d-a097-8d369b3aeb40",
+  "agent": "claudecode",
+  "instance_id": "app-sre_qontract-reconcile_pr1232",
+  "type": 8
+ },
+ {
+  "row": 7,
+  "trajectory_id": "08ca9091-da0b-4891-a4b2-93455585aed9",
+  "agent": "minisweagent",
+  "instance_id": "app-sre_qontract-reconcile_pr1232",
+  "type": 6
+ },
+ {
+  "row": 8,
+  "trajectory_id": "960eb051-ae77-41fb-95d9-94bb18baba43",
+  "agent": "opencode",
+  "instance_id": "app-sre_qontract-reconcile_pr679",
+  "type": 4
+ },
+ {
+  "row": 9,
+  "trajectory_id": "f4558d3d-ae5e-41bf-b934-37e2762172e6",
+  "agent": "claudecode",
+  "instance_id": "audreyr_cookiecutter_pr2053",
+  "type": 6
+ },
+ {
+  "row": 10,
+  "trajectory_id": "1c4a9e3e-aab4-4c02-9b6d-e0b706cb8cd6",
+  "agent": "claudecode",
+  "instance_id": "auth0_auth0-python_pr169",
+  "type": 6
+ },
+ {
+  "row": 11,
+  "trajectory_id": "166d14c0-4692-4be1-8fc3-722ba9ac539a",
+  "agent": "minisweagent",
+  "instance_id": "auth0_auth0-python_pr169",
+  "type": 6
+ },
+ {
+  "row": 12,
+  "trajectory_id": "d1432c29-2d54-44ec-aee6-239c37acf7c4",
+  "agent": "opencode",
+  "instance_id": "auth0_auth0-python_pr169",
+  "type": 6
+ },
+ {
+  "row": 13,
+  "trajectory_id": "e21b9a91-6957-4860-bfef-cc6341162926",
+  "agent": "openhands",
+  "instance_id": "auth0_auth0-python_pr169",
+  "type": 6
+ },
+ {
+  "row": 14,
+  "trajectory_id": "ba1cffc3-87f7-416e-845b-bde192418669",
+  "agent": "minisweagent",
+  "instance_id": "bids-standard_pybids_pr713",
+  "type": 3
+ },
+ {
+  "row": 15,
+  "trajectory_id": "56e78fcb-f3a2-485b-b67b-937b59b44ddd",
+  "agent": "opencode",
+  "instance_id": "bids-standard_pybids_pr713",
+  "type": 3
+ },
+ {
+  "row": 16,
+  "trajectory_id": "23ef2c8b-6933-4249-b332-5257ce9dbea5",
+  "agent": "openhands",
+  "instance_id": "cloudtools_troposphere_pr2182",
+  "type": 6
+ },
+ {
+  "row": 17,
+  "trajectory_id": "4096970d-3701-4577-853c-a477b6b694c4",
+  "agent": "minisweagent",
+  "instance_id": "codrsquad_setupmeta_pr81",
+  "type": 1
+ },
+ {
+  "row": 18,
+  "trajectory_id": "b058ee37-c925-4d6d-b0f5-71acd6771e35",
+  "agent": "opencode",
+  "instance_id": "codrsquad_setupmeta_pr81",
+  "type": 6
+ },
+ {
+  "row": 19,
+  "trajectory_id": "5e5547fc-4618-4315-a016-8e316d6ca521",
+  "agent": "openhands",
+  "instance_id": "codrsquad_setupmeta_pr81",
+  "type": 1
+ },
+ {
+  "row": 20,
+  "trajectory_id": "b099aa1a-abc3-424f-a89a-3d847c797717",
+  "agent": "sweagent",
+  "instance_id": "codrsquad_setupmeta_pr81",
+  "type": 6
+ },
+ {
+  "row": 21,
+  "trajectory_id": "044a670a-9e28-48e9-87b1-635889a7902e",
+  "agent": "sweagent",
+  "instance_id": "dbcli_pgspecial_pr136",
+  "type": 2
+ },
+ {
+  "row": 22,
+  "trajectory_id": "13391689-46ef-420c-8364-23b6ce84b7ef",
+  "agent": "openhands",
+  "instance_id": "roniemartinez_latex2mathml_pr137",
+  "type": 6
+ },
+ {
+  "row": 23,
+  "trajectory_id": "072b8b12-634d-40a2-8b8a-0377d9a48004",
+  "agent": "sweagent",
+  "instance_id": "roniemartinez_latex2mathml_pr137",
+  "type": 6
+ },
+ {
+  "row": 24,
+  "trajectory_id": "b75960a3-c141-41c2-be73-5ba501e2d870",
+  "agent": "openhands",
+  "instance_id": "scrapy_itemadapter_pr31",
+  "type": 6
+ },
+ {
+  "row": 25,
+  "trajectory_id": "e87bff2d-bc42-447c-bf22-8b0cc56b8559",
+  "agent": "claudecode",
+  "instance_id": "sethmlarson_truststore_pr132",
+  "type": 1
+ },
+ {
+  "row": 26,
+  "trajectory_id": "17ea4f53-91b6-4ff4-b1db-6950ee31633f",
+  "agent": "openhands",
+  "instance_id": "sethmlarson_truststore_pr132",
+  "type": 2
+ },
+ {
+  "row": 27,
+  "trajectory_id": "6f7410de-b88e-4f36-89be-06cc193297f9",
+  "agent": "sweagent",
+  "instance_id": "sethmlarson_truststore_pr132",
+  "type": 1
+ },
+ {
+  "row": 28,
+  "trajectory_id": "fd8096f5-6c41-45c9-8547-5180eeb2cebe",
+  "agent": "claudecode",
+  "instance_id": "spdx_tools-python_pr303",
+  "type": 2
+ },
+ {
+  "row": 29,
+  "trajectory_id": "78243f86-7368-46d9-8bd0-b70fcac025c1",
+  "agent": "minisweagent",
+  "instance_id": "spdx_tools-python_pr303",
+  "type": 8
+ },
+ {
+  "row": 30,
+  "trajectory_id": "5f6fab51-91bd-4b73-9cc6-8eb745e924a3",
+  "agent": "openhands",
+  "instance_id": "spdx_tools-python_pr303",
+  "type": 2
+ },
+ {
+  "row": 31,
+  "trajectory_id": "6f834760-9366-4141-ae86-9a8417224339",
+  "agent": "openhands",
+  "instance_id": "sphinx-contrib_confluencebuilder_pr1075",
+  "type": 2
+ },
+ {
+  "row": 32,
+  "trajectory_id": "891c98ce-8fb3-4142-aca4-fa3b08839faa",
+  "agent": "minisweagent",
+  "instance_id": "telefonica_toolium_pr368",
+  "type": 6
+ },
+ {
+  "row": 33,
+  "trajectory_id": "3bc3974b-051b-4e15-ade2-791ca6845fee",
+  "agent": "opencode",
+  "instance_id": "telefonica_toolium_pr368",
+  "type": 4
+ },
+ {
+  "row": 34,
+  "trajectory_id": "775efe9b-9af9-4bc7-a2da-e2f7664d6f23",
+  "agent": "openhands",
+  "instance_id": "valohai_valohai-yaml_pr98",
+  "type": 1
+ },
+ {
+  "row": 35,
+  "trajectory_id": "9a46cab7-a392-464e-ae69-b0132b97e04b",
+  "agent": "claudecode",
+  "instance_id": "wjohnson_pyapacheatlas_pr38",
+  "type": 6
+ },
+ {
+  "row": 36,
+  "trajectory_id": "1c846ad4-80e3-47c0-b025-12c7299aaa93",
+  "agent": "opencode",
+  "instance_id": "wjohnson_pyapacheatlas_pr38",
+  "type": 6
+ },
+ {
+  "row": 37,
+  "trajectory_id": "dee0caea-dae8-4560-a84a-7f140b831d63",
+  "agent": "openhands",
+  "instance_id": "wjohnson_pyapacheatlas_pr38",
+  "type": 2
+ },
+ {
+  "row": 38,
+  "trajectory_id": "7d3a1091-df44-4599-bebc-8ec44a216419",
+  "agent": "sweagent",
+  "instance_id": "wjohnson_pyapacheatlas_pr38",
+  "type": 1
+ },
+ {
+  "row": 39,
+  "trajectory_id": "c08e147a-5489-459e-8be9-d53884cd56b5",
+  "agent": "claudecode",
+  "instance_id": "facebookresearch_clusterscope_pr29",
+  "type": 6
+ },
+ {
+  "row": 40,
+  "trajectory_id": "0b2dafd5-5e4e-4dd7-b264-1cdecb4cafd5",
+  "agent": "minisweagent",
+  "instance_id": "facebookresearch_clusterscope_pr29",
+  "type": 6
+ },
+ {
+  "row": 41,
+  "trajectory_id": "a063bb8d-0444-4e80-8653-0ebc2bbadd25",
+  "agent": "opencode",
+  "instance_id": "facebookresearch_clusterscope_pr29",
+  "type": 6
+ },
+ {
+  "row": 42,
+  "trajectory_id": "0ad09e4f-f8f5-4e0a-b4b7-d1bb620fce67",
+  "agent": "openhands",
+  "instance_id": "facebookresearch_clusterscope_pr29",
+  "type": 6
+ },
+ {
+  "row": 43,
+  "trajectory_id": "14f9d9e2-ae59-419b-a058-43ee71ded36c",
+  "agent": "sweagent",
+  "instance_id": "facebookresearch_clusterscope_pr29",
+  "type": 6
+ },
+ {
+  "row": 44,
+  "trajectory_id": "59bf3148-2a2f-4570-861b-3397bae515e6",
+  "agent": "openhands",
+  "instance_id": "fonttools_fonttools_pr2849",
+  "type": 5
+ },
+ {
+  "row": 45,
+  "trajectory_id": "2f9f47df-cb30-4f61-811c-5cdb54d2fea8",
+  "agent": "claudecode",
+  "instance_id": "frictionlessdata_tableschema-py_pr269",
+  "type": 1
+ },
+ {
+  "row": 46,
+  "trajectory_id": "ba1853e3-0b1c-45df-9d36-7b9d43b68b3d",
+  "agent": "minisweagent",
+  "instance_id": "frictionlessdata_tableschema-py_pr269",
+  "type": 4
+ },
+ {
+  "row": 47,
+  "trajectory_id": "f7112e15-0586-4716-9feb-4af4331846e3",
+  "agent": "openhands",
+  "instance_id": "frictionlessdata_tableschema-py_pr269",
+  "type": 4
+ },
+ {
+  "row": 48,
+  "trajectory_id": "72def7c2-d9b9-4ccf-bbb5-e0594258a647",
+  "agent": "sweagent",
+  "instance_id": "frictionlessdata_tableschema-py_pr269",
+  "type": 4
+ },
+ {
+  "row": 49,
+  "trajectory_id": "01117d95-b279-4fe2-98d2-beee19d226be",
+  "agent": "sweagent",
+  "instance_id": "googlefonts_ufo2ft_pr358",
+  "type": 5
+ },
+ {
+  "row": 50,
+  "trajectory_id": "b6a6b817-5b12-4974-aa29-550b2f410359",
+  "agent": "claudecode",
+  "instance_id": "hhatto_autopep8_pr650",
+  "type": 2
+ },
+ {
+  "row": 51,
+  "trajectory_id": "5a73434e-13ae-4f6d-8fdc-a02858fae9fc",
+  "agent": "opencode",
+  "instance_id": "hhatto_autopep8_pr650",
+  "type": 2
+ },
+ {
+  "row": 52,
+  "trajectory_id": "ef1694a6-3ac6-43a3-b8c3-d4e24ce8be48",
+  "agent": "sweagent",
+  "instance_id": "hhatto_autopep8_pr650",
+  "type": 2
+ },
+ {
+  "row": 53,
+  "trajectory_id": "53859408-543e-4eee-a39c-8a706b16e074",
+  "agent": "claudecode",
+  "instance_id": "hugovk_pypistats_pr38",
+  "type": 6
+ },
+ {
+  "row": 54,
+  "trajectory_id": "7c4c5ab2-3a19-4136-82ed-d60be86ffbd1",
+  "agent": "minisweagent",
+  "instance_id": "hugovk_pypistats_pr38",
+  "type": 6
+ },
+ {
+  "row": 55,
+  "trajectory_id": "062038ed-98a6-4dfb-95dd-af30bed108c1",
+  "agent": "opencode",
+  "instance_id": "hugovk_pypistats_pr38",
+  "type": 6
+ },
+ {
+  "row": 56,
+  "trajectory_id": "394f8441-a4dc-4c0d-976d-35a14851f8f9",
+  "agent": "openhands",
+  "instance_id": "hugovk_pypistats_pr38",
+  "type": 6
+ },
+ {
+  "row": 57,
+  "trajectory_id": "22bfeb4c-fe57-4615-a48d-21d5ed250b8d",
+  "agent": "claudecode",
+  "instance_id": "infobloxopen_infoblox-client_pr234",
+  "type": 6
+ },
+ {
+  "row": 58,
+  "trajectory_id": "32aa4b4a-5ac8-41bd-8837-b310626fee00",
+  "agent": "minisweagent",
+  "instance_id": "infobloxopen_infoblox-client_pr234",
+  "type": 6
+ },
+ {
+  "row": 59,
+  "trajectory_id": "7316f7b9-3944-4f52-8fa4-847267843a05",
+  "agent": "opencode",
+  "instance_id": "infobloxopen_infoblox-client_pr234",
+  "type": 6
+ },
+ {
+  "row": 60,
+  "trajectory_id": "cf202591-0447-4edc-aea7-56c2c161dc54",
+  "agent": "openhands",
+  "instance_id": "infobloxopen_infoblox-client_pr234",
+  "type": 6
+ },
+ {
+  "row": 61,
+  "trajectory_id": "0cf9e019-7129-4a1e-8bff-64dc34acc416",
+  "agent": "sweagent",
+  "instance_id": "infobloxopen_infoblox-client_pr234",
+  "type": 6
+ },
+ {
+  "row": 62,
+  "trajectory_id": "fba2a40c-2137-447f-b595-7f52d46c00c7",
+  "agent": "claudecode",
+  "instance_id": "ipython_ipython_pr14287",
+  "type": 5
+ },
+ {
+  "row": 63,
+  "trajectory_id": "b1214e03-e55f-4c65-affb-ce436e8c97cb",
+  "agent": "minisweagent",
+  "instance_id": "ipython_ipython_pr14287",
+  "type": 5
+ },
+ {
+  "row": 64,
+  "trajectory_id": "85f182ff-cdc3-480e-ac64-cce0f55211ef",
+  "agent": "opencode",
+  "instance_id": "ipython_ipython_pr14287",
+  "type": 5
+ },
+ {
+  "row": 65,
+  "trajectory_id": "a1b2dacd-a96d-4ba7-9c70-c8386439abd1",
+  "agent": "openhands",
+  "instance_id": "ipython_ipython_pr14287",
+  "type": 5
+ },
+ {
+  "row": 66,
+  "trajectory_id": "b51527ff-4e3f-4d05-802b-bc9edbfabfe4",
+  "agent": "sweagent",
+  "instance_id": "ipython_ipython_pr14287",
+  "type": 5
+ },
+ {
+  "row": 67,
+  "trajectory_id": "7e35e41a-caf5-4163-91d8-46046f4da9d4",
+  "agent": "claudecode",
+  "instance_id": "jupyterhub_oauthenticator_pr518",
+  "type": 3
+ },
+ {
+  "row": 68,
+  "trajectory_id": "f2ddb090-2341-4160-9553-9746eb54e3e5",
+  "agent": "minisweagent",
+  "instance_id": "k2-fsa_sherpa-onnx_pr1203",
+  "type": 5
+ },
+ {
+  "row": 69,
+  "trajectory_id": "e088bc4e-5ada-4423-a2d7-4f1ab60c43a8",
+  "agent": "opencode",
+  "instance_id": "k2-fsa_sherpa-onnx_pr1203",
+  "type": 2
+ },
+ {
+  "row": 70,
+  "trajectory_id": "990fcbf3-c03d-4628-b7bc-cff611a845df",
+  "agent": "openhands",
+  "instance_id": "k2-fsa_sherpa-onnx_pr1203",
+  "type": 5
+ },
+ {
+  "row": 71,
+  "trajectory_id": "2dc257fe-e525-4c2f-8b2f-bab0a330f607",
+  "agent": "sweagent",
+  "instance_id": "k2-fsa_sherpa-onnx_pr1203",
+  "type": 2
+ },
+ {
+  "row": 72,
+  "trajectory_id": "aec81f02-58ea-462e-a7c8-f1c82886e7f1",
+  "agent": "claudecode",
+  "instance_id": "kivy_buildozer_pr1575",
+  "type": 3
+ },
+ {
+  "row": 73,
+  "trajectory_id": "72e26dc9-f971-4862-b452-5bbfdb88a0aa",
+  "agent": "openhands",
+  "instance_id": "kivy_buildozer_pr1575",
+  "type": 3
+ },
+ {
+  "row": 74,
+  "trajectory_id": "23983134-11bf-4c78-85b6-ed1e69692d35",
+  "agent": "sweagent",
+  "instance_id": "kivy_buildozer_pr1575",
+  "type": 3
+ },
+ {
+  "row": 75,
+  "trajectory_id": "3c77d482-a7be-48d7-9eba-c8c4ac03d58f",
+  "agent": "openhands",
+  "instance_id": "loadsmart_django-jaiminho_pr29",
+  "type": 6
+ },
+ {
+  "row": 76,
+  "trajectory_id": "b7f44e52-d5a4-46a0-8dd7-4d709425bf8f",
+  "agent": "sweagent",
+  "instance_id": "loadsmart_django-jaiminho_pr29",
+  "type": 6
+ },
+ {
+  "row": 77,
+  "trajectory_id": "ff311e03-db73-4a97-ac7a-babed80a0ad5",
+  "agent": "claudecode",
+  "instance_id": "marcosschroh_dataclasses-avroschema_pr810",
+  "type": 8
+ },
+ {
+  "row": 78,
+  "trajectory_id": "06ce3811-2fd8-45ad-a874-c599d7f2fa77",
+  "agent": "minisweagent",
+  "instance_id": "marcosschroh_dataclasses-avroschema_pr810",
+  "type": 3
+ },
+ {
+  "row": 79,
+  "trajectory_id": "9c3bbaed-cf4f-431a-b721-946f4cfd2463",
+  "agent": "openhands",
+  "instance_id": "marcosschroh_dataclasses-avroschema_pr810",
+  "type": 2
+ },
+ {
+  "row": 80,
+  "trajectory_id": "a916dd51-7b05-4a3b-8b29-3f4b85f98775",
+  "agent": "sweagent",
+  "instance_id": "marcosschroh_dataclasses-avroschema_pr810",
+  "type": 2
+ },
+ {
+  "row": 81,
+  "trajectory_id": "f73fe1f3-f1c6-49bb-a094-c6d3f3121c1a",
+  "agent": "sweagent",
+  "instance_id": "mcu-tools_mcuboot_pr749",
+  "type": 2
+ },
+ {
+  "row": 82,
+  "trajectory_id": "a954f5cf-d4e8-4caf-a766-e3d4a59f8064",
+  "agent": "claudecode",
+  "instance_id": "mesonbuild_meson-python_pr304",
+  "type": 6
+ },
+ {
+  "row": 83,
+  "trajectory_id": "c73ada37-e428-4ab2-be2d-dfe9b0cb9314",
+  "agent": "opencode",
+  "instance_id": "mesonbuild_meson-python_pr304",
+  "type": 6
+ },
+ {
+  "row": 84,
+  "trajectory_id": "27043ccc-100b-4740-a4ef-0283d6ec066a",
+  "agent": "openhands",
+  "instance_id": "mesonbuild_meson-python_pr304",
+  "type": 6
+ },
+ {
+  "row": 85,
+  "trajectory_id": "8e3ce7dc-6144-49ca-9756-29bb38d19495",
+  "agent": "opencode",
+  "instance_id": "ncclient_ncclient_pr330",
+  "type": 2
+ },
+ {
+  "row": 86,
+  "trajectory_id": "018b1a89-bcdc-4669-8125-e816f652fba8",
+  "agent": "openhands",
+  "instance_id": "ncclient_ncclient_pr330",
+  "type": 2
+ },
+ {
+  "row": 87,
+  "trajectory_id": "b111a0ee-34ea-482e-9495-30d6a8b5b067",
+  "agent": "opencode",
+  "instance_id": "numpy_numpy-financial_pr81",
+  "type": 5
+ },
+ {
+  "row": 88,
+  "trajectory_id": "cf7098b8-837d-4878-8c0f-caa19db80945",
+  "agent": "openhands",
+  "instance_id": "numpy_numpy-financial_pr81",
+  "type": 5
+ },
+ {
+  "row": 89,
+  "trajectory_id": "a8c073f6-ed8b-46ff-a45f-49e0d11ff67c",
+  "agent": "opencode",
+  "instance_id": "nylas_nylas-python_pr190",
+  "type": 6
+ },
+ {
+  "row": 90,
+  "trajectory_id": "51dcad99-2271-46fc-8f41-8e2fda8f0fb7",
+  "agent": "claudecode",
+  "instance_id": "pallets_click_pr1061",
+  "type": 2
+ },
+ {
+  "row": 91,
+  "trajectory_id": "dc68e356-f649-4e7e-aeb3-63a6ff581a01",
+  "agent": "opencode",
+  "instance_id": "pallets_jinja_pr1109",
+  "type": 8
+ },
+ {
+  "row": 92,
+  "trajectory_id": "9da062f1-d6b7-4fef-a3d6-aa70b9adcd6b",
+  "agent": "openhands",
+  "instance_id": "pallets_werkzeug_pr2338",
+  "type": 4
+ },
+ {
+  "row": 93,
+  "trajectory_id": "4a85d538-657c-462c-8660-7114c1dc67f1",
+  "agent": "sweagent",
+  "instance_id": "pallets_werkzeug_pr2338",
+  "type": 4
+ },
+ {
+  "row": 94,
+  "trajectory_id": "181398cf-a393-4ecb-898b-56967bc7b15a",
+  "agent": "minisweagent",
+  "instance_id": "pdm-project_pdm-backend_pr120",
+  "type": 2
+ },
+ {
+  "row": 95,
+  "trajectory_id": "ed1bf34b-48ff-44a5-9be3-637dc94c5009",
+  "agent": "opencode",
+  "instance_id": "pdm-project_pdm-backend_pr120",
+  "type": 2
+ },
+ {
+  "row": 96,
+  "trajectory_id": "0c211cf1-7065-449b-9fa9-a7acf122506a",
+  "agent": "openhands",
+  "instance_id": "pdm-project_pdm-backend_pr120",
+  "type": 2
+ },
+ {
+  "row": 97,
+  "trajectory_id": "6c93be3b-b465-49b7-a9f0-1966e241f5a9",
+  "agent": "sweagent",
+  "instance_id": "pdm-project_pdm-backend_pr120",
+  "type": 2
+ },
+ {
+  "row": 98,
+  "trajectory_id": "6204891e-14a6-4881-83dc-4c254b7f7122",
+  "agent": "claudecode",
+  "instance_id": "projectmesa_mesa_pr1718",
+  "type": 6
+ },
+ {
+  "row": 99,
+  "trajectory_id": "3ba8459f-6f7d-4f4f-90e8-e310dd15e4a2",
+  "agent": "minisweagent",
+  "instance_id": "projectmesa_mesa_pr1718",
+  "type": 6
+ },
+ {
+  "row": 100,
+  "trajectory_id": "68995633-8129-43fc-ade7-d21f6bbed243",
+  "agent": "openhands",
+  "instance_id": "projectmesa_mesa_pr1718",
+  "type": 6
+ },
+ {
+  "row": 101,
+  "trajectory_id": "947843f7-e6ce-43e3-ba77-0b2308565003",
+  "agent": "openhands",
+  "instance_id": "pyvisa_pyvisa-py_pr350",
+  "type": 5
+ },
+ {
+  "row": 102,
+  "trajectory_id": "144642d9-9d90-4025-b63c-71556e767b05",
+  "agent": "opencode",
+  "instance_id": "reef-technologies_logfury_pr9",
+  "type": 4
+ },
+ {
+  "row": 103,
+  "trajectory_id": "af0f2ac2-7fd4-4edf-8a1d-8dec42509c35",
+  "agent": "claudecode",
+  "instance_id": "richardkiss_pycoin_pr177",
+  "type": 6
+ },
+ {
+  "row": 104,
+  "trajectory_id": "b0bebf60-65f4-4402-a8f7-0f0526f56e7f",
+  "agent": "sweagent",
+  "instance_id": "richardkiss_pycoin_pr177",
+  "type": 6
+ },
+ {
+  "row": 105,
+  "trajectory_id": "fd17e6f6-c1bd-4bc3-af29-fd11c043e777",
+  "agent": "claudecode",
+  "instance_id": "roniemartinez_latex2mathml_pr137",
+  "type": 6
+ },
+ {
+  "row": 106,
+  "trajectory_id": "5c47c295-94be-49a1-ade6-e214d7b5d95f",
+  "agent": "minisweagent",
+  "instance_id": "roniemartinez_latex2mathml_pr137",
+  "type": 6
+ },
+ {
+  "row": 107,
+  "trajectory_id": "7857ba69-d576-4d05-91e3-e6a3fb2a3eb1",
+  "agent": "opencode",
+  "instance_id": "roniemartinez_latex2mathml_pr137",
+  "type": 6
+ },
+ {
+  "row": 108,
+  "trajectory_id": "14a56520-f01d-46b1-bd4e-f7cb02e7fc66",
+  "agent": "sweagent",
+  "instance_id": "telefonica_toolium_pr368",
+  "type": 1
+ },
+ {
+  "row": 109,
+  "trajectory_id": "b0c5e080-9e27-4843-99f4-12f51603b142",
+  "agent": "minisweagent",
+  "instance_id": "wjohnson_pyapacheatlas_pr38",
+  "type": 6
+ },
+ {
+  "row": 110,
+  "trajectory_id": "704eeb19-76ee-4342-acd0-08f7d089b35e",
+  "agent": "openhands",
+  "instance_id": "app-sre_qontract-reconcile_pr1232",
+  "type": 6
+ },
+ {
+  "row": 111,
+  "trajectory_id": "986f3f64-a9b9-4bcf-97e1-58d447c731d4",
+  "agent": "claudecode",
+  "instance_id": "codrsquad_setupmeta_pr81",
+  "type": 6
+ },
+ {
+  "row": 112,
+  "trajectory_id": "f82e15f2-78d9-4abe-806a-9f240790d2f3",
+  "agent": "minisweagent",
+  "instance_id": "sethmlarson_truststore_pr132",
+  "type": 3
+ },
+ {
+  "row": 113,
+  "trajectory_id": "68f05212-0cb5-43ec-9f02-e3e88740be8b",
+  "agent": "sweagent",
+  "instance_id": "spdx_tools-python_pr303",
+  "type": 2
+ },
+ {
+  "row": 114,
+  "trajectory_id": "3f19836a-3609-43df-a931-f08d4498b77c",
+  "agent": "claudecode",
+  "instance_id": "telefonica_toolium_pr368",
+  "type": 6
+ },
+ {
+  "row": 115,
+  "trajectory_id": "81b474a1-e2c6-4ff8-bcfe-aed0aeb60c09",
+  "agent": "openhands",
+  "instance_id": "telefonica_toolium_pr368",
+  "type": 6
+ },
+ {
+  "row": 116,
+  "trajectory_id": "19fa1c2c-dfc3-491c-835d-12c9a784225e",
+  "agent": "sweagent",
+  "instance_id": "valohai_valohai-yaml_pr98",
+  "type": 6
+ },
+ {
+  "row": 117,
+  "trajectory_id": "6bdee420-f30c-42cb-a404-2eaa9159e344",
+  "agent": "opencode",
+  "instance_id": "frictionlessdata_tableschema-py_pr269",
+  "type": 4
+ },
+ {
+  "row": 118,
+  "trajectory_id": "094a1276-0b0d-407e-bd9a-3253025c7a21",
+  "agent": "minisweagent",
+  "instance_id": "hhatto_autopep8_pr650",
+  "type": 2
+ },
+ {
+  "row": 119,
+  "trajectory_id": "8ceebdfc-9cdf-4f4f-9e63-ca229eb01bb1",
+  "agent": "sweagent",
+  "instance_id": "hugovk_pypistats_pr38",
+  "type": 6
+ },
+ {
+  "row": 120,
+  "trajectory_id": "be5bd267-9cfc-41cc-8d30-c748b5542569",
+  "agent": "claudecode",
+  "instance_id": "k2-fsa_sherpa-onnx_pr1203",
+  "type": 2
+ },
+ {
+  "row": 121,
+  "trajectory_id": "a001d04c-69dd-40b3-9e1a-a175e53b4553",
+  "agent": "minisweagent",
+  "instance_id": "kivy_buildozer_pr1575",
+  "type": 3
+ },
+ {
+  "row": 122,
+  "trajectory_id": "56d8488f-3b52-4689-91e5-ac90466429a9",
+  "agent": "opencode",
+  "instance_id": "kivy_buildozer_pr1575",
+  "type": 3
+ },
+ {
+  "row": 123,
+  "trajectory_id": "49be04b6-c1f4-44d9-9ad7-be2d31d3c53c",
+  "agent": "claudecode",
+  "instance_id": "loadsmart_django-jaiminho_pr29",
+  "type": 6
+ },
+ {
+  "row": 124,
+  "trajectory_id": "ccc29789-75ff-4835-9311-786440e7ae76",
+  "agent": "minisweagent",
+  "instance_id": "mesonbuild_meson-python_pr304",
+  "type": 6
+ },
+ {
+  "row": 125,
+  "trajectory_id": "e458b23d-f440-4070-9c91-48171d254d99",
+  "agent": "sweagent",
+  "instance_id": "mesonbuild_meson-python_pr304",
+  "type": 6
+ },
+ {
+  "row": 126,
+  "trajectory_id": "a0b77776-a64e-44d5-9eca-74750a6df95e",
+  "agent": "minisweagent",
+  "instance_id": "numpy_numpy-financial_pr81",
+  "type": 5
+ },
+ {
+  "row": 127,
+  "trajectory_id": "89ea5a1b-c819-472f-8f61-1a5b190ca5b5",
+  "agent": "minisweagent",
+  "instance_id": "pyvisa_pyvisa-py_pr350",
+  "type": 6
+ },
+ {
+  "row": 128,
+  "trajectory_id": "43fd3773-10c2-404a-a03a-59f4c96c6503",
+  "agent": "opencode",
+  "instance_id": "sethmlarson_truststore_pr132",
+  "type": 2
+ },
+ {
+  "row": 129,
+  "trajectory_id": "e4bb568e-fc04-4e18-9bad-8dc37c93acd6",
+  "agent": "opencode",
+  "instance_id": "spdx_tools-python_pr303",
+  "type": 5
+ },
+ {
+  "row": 130,
+  "trajectory_id": "cf9555ed-f7ca-4e02-a09d-97c4c43259d1",
+  "agent": "minisweagent",
+  "instance_id": "googlefonts_ufo2ft_pr358",
+  "type": 5
+ },
+ {
+  "row": 131,
+  "trajectory_id": "05b4609f-63a9-422f-97ca-035cf96be88d",
+  "agent": "opencode",
+  "instance_id": "marcosschroh_dataclasses-avroschema_pr810",
+  "type": 2
+ },
+ {
+  "row": 132,
+  "trajectory_id": "459f3c50-4ef3-4ed3-a952-f8ac816dfe7e",
+  "agent": "minisweagent",
+  "instance_id": "richardkiss_pycoin_pr177",
+  "type": 6
+ },
+ {
+  "row": 133,
+  "trajectory_id": "f5138cad-c4bc-4a5b-8708-2ce38c1d08e2",
+  "agent": "minisweagent",
+  "instance_id": "audreyr_cookiecutter_pr2053",
+  "type": 6
+ },
+ {
+  "row": 134,
+  "trajectory_id": "6df632da-dc7a-49db-bbb6-d42881d11545",
+  "agent": "sweagent",
+  "instance_id": "sphinx-contrib_confluencebuilder_pr1075",
+  "type": 8
+ },
+ {
+  "row": 135,
+  "trajectory_id": "6f2eb62b-3e7e-4e8f-a8b7-ea3f886c1d7a",
+  "agent": "claudecode",
+  "instance_id": "numpy_numpy-financial_pr81",
+  "type": 5
+ },
+ {
+  "row": 136,
+  "trajectory_id": "14e508ce-61fa-442d-8cec-d3c10437ff47",
+  "agent": "sweagent",
+  "instance_id": "numpy_numpy-financial_pr81",
+  "type": 5
+ },
+ {
+  "row": 137,
+  "trajectory_id": "f6ba67fd-0d29-40a2-abce-b6bd38093679",
+  "agent": "openhands",
+  "instance_id": "pallets_click_pr1061",
+  "type": 6
+ },
+ {
+  "row": 138,
+  "trajectory_id": "00951e23-40ed-4b41-93ed-4eefad98349f",
+  "agent": "opencode",
+  "instance_id": "pallets_werkzeug_pr2338",
+  "type": 4
+ },
+ {
+  "row": 139,
+  "trajectory_id": "044fe4c4-56ed-4729-8497-608f1b0b5218",
+  "agent": "minisweagent",
+  "instance_id": "python-control_python-control_pr1012",
+  "type": 8
+ },
+ {
+  "row": 140,
+  "trajectory_id": "a52703db-8dc3-4c98-a627-cdb6b5736b27",
+  "agent": "opencode",
+  "instance_id": "richardkiss_pycoin_pr177",
+  "type": 6
+ },
+ {
+  "row": 141,
+  "trajectory_id": "15a2abf8-6b74-4c65-8aa0-c084ec444d56",
+  "agent": "minisweagent",
+  "instance_id": "appium_python-client_pr514",
+  "type": 7
+ },
+ {
+  "row": 142,
+  "trajectory_id": "0bd6fcfc-d522-471e-9f72-e65b66273f16",
+  "agent": "sweagent",
+  "instance_id": "appium_python-client_pr514",
+  "type": 7
+ },
+ {
+  "row": 143,
+  "trajectory_id": "b0326955-821b-4857-a1f1-d8c8e362a55e",
+  "agent": "minisweagent",
+  "instance_id": "bids-standard_pybids_pr568",
+  "type": 6
+ },
+ {
+  "row": 144,
+  "trajectory_id": "31bdd743-e8cb-4182-937a-5e26b1f8671d",
+  "agent": "claudecode",
+  "instance_id": "bids-standard_pybids_pr713",
+  "type": 2
+ },
+ {
+  "row": 145,
+  "trajectory_id": "21b3f53c-cae2-493d-bf55-a82232a4c74b",
+  "agent": "claudecode",
+  "instance_id": "cloudtools_troposphere_pr2182",
+  "type": 6
+ },
+ {
+  "row": 146,
+  "trajectory_id": "e572b41f-eb76-4cff-86cd-1b41e54a0012",
+  "agent": "minisweagent",
+  "instance_id": "cloudtools_troposphere_pr2182",
+  "type": 6
+ },
+ {
+  "row": 147,
+  "trajectory_id": "7155a0a5-fc98-429d-8cea-87eaf2e3636c",
+  "agent": "opencode",
+  "instance_id": "cloudtools_troposphere_pr2182",
+  "type": 6
+ },
+ {
+  "row": 148,
+  "trajectory_id": "2d4a7e20-6288-4992-b6a0-b6d828a5733a",
+  "agent": "sweagent",
+  "instance_id": "cloudtools_troposphere_pr2182",
+  "type": 6
+ },
+ {
+  "row": 149,
+  "trajectory_id": "da5f375c-3164-4e5c-bc11-ac82e468041c",
+  "agent": "opencode",
+  "instance_id": "dbcli_pgspecial_pr136",
+  "type": 2
+ },
+ {
+  "row": 150,
+  "trajectory_id": "ed522a49-bccb-45cc-b3f1-217f1835ecc8",
+  "agent": "openhands",
+  "instance_id": "scikit-rf_scikit-rf_pr761",
+  "type": 7
+ },
+ {
+  "row": 151,
+  "trajectory_id": "f4d6948e-cc5c-46fd-b53d-bd92445f138e",
+  "agent": "claudecode",
+  "instance_id": "sphinx-contrib_confluencebuilder_pr1075",
+  "type": 7
+ },
+ {
+  "row": 152,
+  "trajectory_id": "d2fab2cf-b28b-4c88-addb-fafd788aad9c",
+  "agent": "opencode",
+  "instance_id": "sphinx-contrib_confluencebuilder_pr1075",
+  "type": 7
+ },
+ {
+  "row": 153,
+  "trajectory_id": "6daed5c6-c549-4755-8f23-e1a25c39e047",
+  "agent": "claudecode",
+  "instance_id": "valohai_valohai-yaml_pr98",
+  "type": 6
+ },
+ {
+  "row": 154,
+  "trajectory_id": "9a40cf6d-5e6f-48a2-8eee-49b5ca2b4d50",
+  "agent": "sweagent",
+  "instance_id": "google_flatbuffers_pr6105",
+  "type": 2
+ },
+ {
+  "row": 155,
+  "trajectory_id": "2b1ce24d-7496-48f3-83b1-ca06f9179334",
+  "agent": "claudecode",
+  "instance_id": "jupyterhub_oauthenticator_pr537",
+  "type": 7
+ },
+ {
+  "row": 156,
+  "trajectory_id": "db67957e-01ae-4753-afc2-01d2edaa7852",
+  "agent": "minisweagent",
+  "instance_id": "loadsmart_django-jaiminho_pr29",
+  "type": 6
+ },
+ {
+  "row": 157,
+  "trajectory_id": "506f3b2c-7a2f-474f-920d-10cf7c7b4504",
+  "agent": "opencode",
+  "instance_id": "loadsmart_django-jaiminho_pr29",
+  "type": 6
+ },
+ {
+  "row": 158,
+  "trajectory_id": "90cacc11-0205-4c13-8c06-1d4be2508fb3",
+  "agent": "minisweagent",
+  "instance_id": "more-itertools_more-itertools_pr963",
+  "type": 7
+ },
+ {
+  "row": 159,
+  "trajectory_id": "19737ce1-a5b2-4e4f-871c-efc48022f715",
+  "agent": "minisweagent",
+  "instance_id": "pallets_click_pr1061",
+  "type": 7
+ },
+ {
+  "row": 160,
+  "trajectory_id": "6435b8b6-9de4-41c8-865b-0bce1fb68ae2",
+  "agent": "opencode",
+  "instance_id": "pallets_click_pr1061",
+  "type": 6
+ },
+ {
+  "row": 161,
+  "trajectory_id": "ba37a802-1571-4a76-a33f-d3e89d99c552",
+  "agent": "sweagent",
+  "instance_id": "pallets_click_pr1061",
+  "type": 2
+ },
+ {
+  "row": 162,
+  "trajectory_id": "83a21731-8cc3-4ab5-bf18-7a9b3e8e3dd0",
+  "agent": "minisweagent",
+  "instance_id": "pallets_werkzeug_pr2338",
+  "type": 4
+ },
+ {
+  "row": 163,
+  "trajectory_id": "23c0cfcf-7cee-4da5-812b-63a9c7d69da8",
+  "agent": "claudecode",
+  "instance_id": "reef-technologies_logfury_pr9",
+  "type": 4
+ }
+]

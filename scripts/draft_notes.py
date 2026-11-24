@@ -82,12 +82,6 @@ def condensed(messages, max_chars=14000) -> tuple[str, str]:
     return issue[:3000], text
 
 
-runs = [json.loads(line) for line in open("data/runs.jsonl") if json.loads(line)["resolved"] == 0]
-limit = int(sys.argv[1]) if len(sys.argv) > 1 else len(runs)
-done = {json.loads(l)["trajectory_id"] for l in OUT.open()} if OUT.exists() else set()
-todo = [r for r in runs[:limit] if r["trajectory_id"] not in done]
-
-
 def draft(run):
     md = run.get("metadata") or {}
     issue, actions = condensed(run["messages"])
@@ -101,8 +95,16 @@ def draft(run):
             "usage": usage}
 
 
-with OUT.open("a") as out, ThreadPoolExecutor(max_workers=4) as pool:
-    for row in pool.map(draft, todo):
-        out.write(json.dumps(row) + "\n")
-        out.flush()
-print(f"drafted {len(todo)} (total {len(done) + len(todo)})")
+
+if __name__ == "__main__":
+    runs = [json.loads(line) for line in open("data/runs.jsonl") if json.loads(line)["resolved"] == 0]
+    limit = int(sys.argv[1]) if len(sys.argv) > 1 else len(runs)
+    done = {json.loads(l)["trajectory_id"] for l in OUT.open()} if OUT.exists() else set()
+    todo = [r for r in runs[:limit] if r["trajectory_id"] not in done]
+
+
+    with OUT.open("a") as out, ThreadPoolExecutor(max_workers=4) as pool:
+        for row in pool.map(draft, todo):
+            out.write(json.dumps(row) + "\n")
+            out.flush()
+    print(f"drafted {len(todo)} (total {len(done) + len(todo)})")
